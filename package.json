@@ -1,0 +1,22 @@
+{
+  "name": "gremlinexplorerapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "esm": "^3.2.22",
+    "express": "^4.16.4",
+    "gremlin": "^3.4.1",
+    "nodemon": "^1.18.11"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --inspect -r esm main.js",
+    "prod": "node -r esm main.js",
+    "start": "echo \"Use Either 'dev' or 'prod' to run\""
+  },
+  "author": "",
+  "license": "ISC"
+}
